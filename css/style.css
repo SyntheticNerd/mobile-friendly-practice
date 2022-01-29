@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: no-repeat
+    linear-gradient(180deg, #85e2ff 0%, #005a77 52.51%, #00212c 100%);
+}
+.align-center {
+  text-align: center;
+}
+.align-right {
+  text-align: right;
+}
+.align-left {
+  text-align: left;
+}
+header {
+  color: #ffffff;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  background: white;
+  height: 50vh;
+}
+section {
+  margin: 0 10vw;
+}
+footer {
+  color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h2 {
+  color: #006f94;
+}
