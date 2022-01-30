@@ -41,3 +41,19 @@ footer {
 h2 {
   color: #006f94;
 }
+
+@media (max-width: 480px) {
+  header {
+    background: red;
+  }
+}
+@media (max-width: 768px) and (min-width: 480px) {
+  header {
+    background: green;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    background: blue;
+  }
+}
